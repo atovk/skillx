@@ -1,0 +1,26 @@
+{
+  "name": "skillx",
+  "version": "1.0.0",
+  "description": "Claude Code Skills 全栈学习资源库 - 帮助学习者快速上手 Claude Code Skills 能力",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "tutorials",
+    "examples",
+    "learning",
+    "ai-agents"
+  ],
+  "author": "SkillX Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atovk/skillx.git"
+  },
+  "scripts": {
+    "validate": "node tools/validate-skill.js",
+    "test": "node tools/test-skill.js"
+  },
+  "devDependencies": {
+    "yaml": "^2.3.0"
+  }
+}
